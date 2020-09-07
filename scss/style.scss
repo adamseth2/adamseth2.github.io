@@ -236,6 +236,10 @@ nav {
             padding: 7em 0;
             background-color: $light-color;
         }
+        img {
+            width: 100%;
+            height: auto;
+        }
         .card-caption {
             border-top: $dark-color solid 3px;
             background-color: $medium-dark-color;
@@ -246,8 +250,10 @@ nav {
                 padding: 0.25em 0;
             }
             p {
-                padding-top: 1em;
+                padding: 1em 1em 0 1em;
+                height: 10ch;
                 font-size: 1em;
+                text-align: center;
             }
             .card-grid {
                 display:flex;
