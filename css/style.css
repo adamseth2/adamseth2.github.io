@@ -6,7 +6,7 @@
   padding: 0;
   text-decoration: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
   border: none;
@@ -47,22 +47,26 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   top: 0;
   z-index: 10000;
   -webkit-box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.3);
 }
 
-nav a, nav #section-C .card .card-caption .view-code, #section-C .card .card-caption nav .view-code {
+nav a,
+nav #section-C .card .card-caption .view-code,
+#section-C .card .card-caption nav .view-code {
   padding: 0.2rem 0.5rem;
   color: #000000;
 }
 
-nav a:hover, nav #section-C .card .card-caption .view-code:hover, #section-C .card .card-caption nav .view-code:hover {
+nav a:hover,
+nav #section-C .card .card-caption .view-code:hover,
+#section-C .card .card-caption nav .view-code:hover {
   color: #111111;
 }
 
@@ -94,16 +98,18 @@ nav #nav-pop-up {
   font-size: 1.5rem;
   padding-bottom: 1.5em;
   -webkit-animation-name: expand-hamburger;
-          animation-name: expand-hamburger;
+  animation-name: expand-hamburger;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
 }
 
-nav #nav-pop-up a, nav #nav-pop-up #section-C .card .card-caption .view-code, #section-C .card .card-caption nav #nav-pop-up .view-code {
+nav #nav-pop-up a,
+nav #nav-pop-up #section-C .card .card-caption .view-code,
+#section-C .card .card-caption nav #nav-pop-up .view-code {
   position: relative;
   left: 50%;
   -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  transform: translate(-50%);
   text-align: center;
   color: white;
   line-height: 2;
@@ -133,41 +139,41 @@ nav #nav-pop-up #arrow-close:hover::after {
 
 nav #nav-pop-up #arrow-close::before {
   -webkit-transform: translateX(-10px) rotate(45deg);
-          transform: translateX(-10px) rotate(45deg);
+  transform: translateX(-10px) rotate(45deg);
 }
 
 nav #nav-pop-up #arrow-close::after {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 @-webkit-keyframes expand-hamburger {
   0% {
     -webkit-transform: rotate3d(0, 1, 0, 90deg);
-            transform: rotate3d(0, 1, 0, 90deg);
+    transform: rotate3d(0, 1, 0, 90deg);
   }
   25% {
     -webkit-transform: rotate3d(0, 1, 0, 15deg);
-            transform: rotate3d(0, 1, 0, 15deg);
+    transform: rotate3d(0, 1, 0, 15deg);
   }
   100% {
     -webkit-transform: rotate3d(0, 1, 0, 0deg);
-            transform: rotate3d(0, 1, 0, 0deg);
+    transform: rotate3d(0, 1, 0, 0deg);
   }
 }
 
 @keyframes expand-hamburger {
   0% {
     -webkit-transform: rotate3d(0, 1, 0, 90deg);
-            transform: rotate3d(0, 1, 0, 90deg);
+    transform: rotate3d(0, 1, 0, 90deg);
   }
   25% {
     -webkit-transform: rotate3d(0, 1, 0, 15deg);
-            transform: rotate3d(0, 1, 0, 15deg);
+    transform: rotate3d(0, 1, 0, 15deg);
   }
   100% {
     -webkit-transform: rotate3d(0, 1, 0, 0deg);
-            transform: rotate3d(0, 1, 0, 0deg);
+    transform: rotate3d(0, 1, 0, 0deg);
   }
 }
 
@@ -186,11 +192,11 @@ nav #nav-pop-up #arrow-close::after {
 #section-A h1 {
   position: relative;
   -webkit-animation-name: top-to-down;
-          animation-name: top-to-down;
+  animation-name: top-to-down;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
   padding-top: 10%;
   font-size: 4rem;
 }
@@ -198,30 +204,32 @@ nav #nav-pop-up #arrow-close::after {
 #section-A p {
   position: relative;
   -webkit-animation-name: left-to-right;
-          animation-name: left-to-right;
+  animation-name: left-to-right;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   opacity: 0;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   font-size: 2rem;
 }
 
-#section-A a, #section-A #section-C .card .card-caption .view-code, #section-C .card .card-caption #section-A .view-code {
+#section-A a,
+#section-A #section-C .card .card-caption .view-code,
+#section-C .card .card-caption #section-A .view-code {
   top: 4rem;
   font-size: 1.5rem;
   color: white;
   position: relative;
   -webkit-animation-name: left-to-right;
-          animation-name: left-to-right;
+  animation-name: left-to-right;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 #section-A span {
@@ -247,7 +255,7 @@ nav #nav-pop-up #arrow-close::after {
   display: -ms-flexbox;
   display: flex;
   -webkit-transform: translateX(15%);
-          transform: translateX(15%);
+  transform: translateX(15%);
   width: 70%;
 }
 
@@ -276,7 +284,7 @@ nav #nav-pop-up #arrow-close::after {
 
 #section-B .container-B img {
   -webkit-transform: translateX(80%);
-          transform: translateX(80%);
+  transform: translateX(80%);
   width: 40%;
 }
 
@@ -347,21 +355,22 @@ nav #nav-pop-up #arrow-close::after {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
-#section-C .card .card-caption a, #section-C .card .card-caption .view-code {
+#section-C .card .card-caption a,
+#section-C .card .card-caption .view-code {
   margin-top: 1em;
   display: inline-block;
   color: white;
   padding: 1em 0.5em 1em 3em;
   position: relative;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   font-weight: bold;
   font-size: 0.9em;
 }
@@ -370,14 +379,17 @@ nav #nav-pop-up #arrow-close::after {
   padding-left: 3em;
 }
 
-#section-C .card .card-caption a:hover, #section-C .card .card-caption .view-code:hover {
+#section-C .card .card-caption a:hover,
+#section-C .card .card-caption .view-code:hover {
   background-color: white;
   color: #111;
 }
 
-#section-C .card .card-caption .icon-cust, #section-C .card .card-caption .icon-github, #section-C .card .card-caption .icon-desktop {
+#section-C .card .card-caption .icon-cust,
+#section-C .card .card-caption .icon-github,
+#section-C .card .card-caption .icon-desktop {
   -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   position: absolute;
   left: 0.2em;
   bottom: 0.4em;
@@ -409,7 +421,7 @@ nav #nav-pop-up #arrow-close::after {
 #section-D img {
   width: 100%;
   -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 #section-D .wrapper {
@@ -445,7 +457,7 @@ nav #nav-pop-up #arrow-close::after {
 #section-D input:focus + label,
 #section-D input:valid + label {
   -webkit-transform: translateY(-70%);
-          transform: translateY(-70%);
+  transform: translateY(-70%);
   font-size: 1rem;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
@@ -475,12 +487,16 @@ footer #social-media-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #f3f3f3;
 }
 
-footer #social-media-container .icon-cust, footer #social-media-container #section-C .card .card-caption .icon-github, #section-C .card .card-caption footer #social-media-container .icon-github, footer #social-media-container #section-C .card .card-caption .icon-desktop, #section-C .card .card-caption footer #social-media-container .icon-desktop {
+footer #social-media-container .icon-cust,
+footer #social-media-container #section-C .card .card-caption .icon-github,
+#section-C .card .card-caption footer #social-media-container .icon-github,
+footer #social-media-container #section-C .card .card-caption .icon-desktop,
+#section-C .card .card-caption footer #social-media-container .icon-desktop {
   color: white;
   margin: 0 0.5em;
 }
@@ -488,14 +504,14 @@ footer #social-media-container .icon-cust, footer #social-media-container #secti
 @media (min-width: 700px) {
   #section-B {
     -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin: 7% 7% 0 7%;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1.3fr 1fr;
-        grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1.3fr 1fr;
     -ms-grid-row: 2;
     grid-row: 2;
     padding: 0;
@@ -509,12 +525,12 @@ footer #social-media-container .icon-cust, footer #social-media-container #secti
     display: -ms-grid;
     display: grid;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
   }
   #section-B .container-B img {
     -webkit-transform: translateX(40%);
-            transform: translateX(40%);
+    transform: translateX(40%);
     width: 60%;
   }
   #section-B h1 {
@@ -528,9 +544,9 @@ footer #social-media-container .icon-cust, footer #social-media-container #secti
     display: -ms-grid;
     display: grid;
     -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    align-self: center;
+    -ms-grid-columns: (minmax(400px, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 10%;
   }
   #section-C .grid .card {
@@ -538,13 +554,13 @@ footer #social-media-container .icon-cust, footer #social-media-container #secti
     transition: ease-out 0.5s;
     margin: 1em;
     -webkit-box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.2);
   }
   #section-C .grid .card:hover {
     -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
     -webkit-box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.4);
-            box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.4);
   }
   #section-D {
     margin: 0 23%;
@@ -552,7 +568,7 @@ footer #social-media-container .icon-cust, footer #social-media-container #secti
   #section-D img {
     width: 40%;
     -webkit-transform: translateX(80%);
-            transform: translateX(80%);
+    transform: translateX(80%);
   }
 }
 
