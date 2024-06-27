@@ -1,4 +1,7 @@
-*, *::before, *::after, *:focus {
+*,
+*::before,
+*::after,
+*:focus {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -73,7 +76,9 @@ nav #hamburger {
   position: relative;
 }
 
-nav #hamburger .one, nav #hamburger .two, nav #hamburger .three {
+nav #hamburger .one,
+nav #hamburger .two,
+nav #hamburger .three {
   width: 100%;
   border: orange 2px solid;
 }
@@ -114,7 +119,7 @@ nav #nav-pop-up #arrow-close::before,
 nav #nav-pop-up #arrow-close::after {
   content: '';
   padding: 3px 10px;
-  background-color: #999;
+  background-color: #777;
   position: absolute;
   left: 50%;
   cursor: pointer;
@@ -167,7 +172,6 @@ nav #nav-pop-up #arrow-close::after {
 }
 
 #section-A {
-  padding-top: 7em;
   margin-top: 5.5em;
   height: 80vh;
   padding-bottom: 10em;
@@ -187,8 +191,8 @@ nav #nav-pop-up #arrow-close::after {
           animation-duration: 2s;
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
-  padding-top: 3em;
-  padding-bottom: 0.5em;
+  padding-top: 10%;
+  font-size: 4rem;
 }
 
 #section-A p {
@@ -202,6 +206,33 @@ nav #nav-pop-up #arrow-close::after {
   opacity: 0;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  font-size: 2rem;
+}
+
+#section-A a, #section-A #section-C .card .card-caption .view-code, #section-C .card .card-caption #section-A .view-code {
+  top: 4rem;
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  -webkit-animation-name: left-to-right;
+          animation-name: left-to-right;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#section-A span {
+  border: white 3px solid;
+  padding: 0.5rem;
+  border-radius: 5%;
+}
+
+#section-A span:hover {
+  background-color: white;
+  color: #111;
 }
 
 #section-B {
@@ -220,12 +251,15 @@ nav #nav-pop-up #arrow-close::after {
   width: 70%;
 }
 
-#section-B h1, #section-B h2, #section-B p {
+#section-B h1,
+#section-B h2,
+#section-B p {
   text-align: center;
   opacity: 0;
 }
 
-#section-B h1, #section-B h2 {
+#section-B h1,
+#section-B h2 {
   padding-bottom: 1.5rem;
 }
 
@@ -236,7 +270,7 @@ nav #nav-pop-up #arrow-close::after {
 }
 
 #section-B .container-B {
-  background-color: #999;
+  background-color: #777;
   color: white;
 }
 
@@ -266,7 +300,7 @@ nav #nav-pop-up #arrow-close::after {
 
 #section-C h1 {
   text-align: center;
-  margin: 3em 0;
+  margin: 3em 0 0.5em 0;
 }
 
 #section-C .card:first-child {
@@ -291,9 +325,10 @@ nav #nav-pop-up #arrow-close::after {
 
 #section-C .card .card-caption {
   border-top: #111 solid 3px;
-  background-color: #999;
+  background-color: #777;
   padding-bottom: 1em;
   text-align: center;
+  height: 30ch;
 }
 
 #section-C .card .card-caption h2 {
@@ -302,8 +337,7 @@ nav #nav-pop-up #arrow-close::after {
 }
 
 #section-C .card .card-caption p {
-  padding: 1em 1em 0 1em;
-  height: 10ch;
+  padding: 1em 1em 1em 1em;
   font-size: 1em;
   text-align: center;
 }
@@ -354,7 +388,10 @@ nav #nav-pop-up #arrow-close::after {
 }
 
 #section-D {
-  margin: 10em 0.5em 8em 0.5em;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
 }
 
 #section-D #s-D-title {
@@ -364,7 +401,8 @@ nav #nav-pop-up #arrow-close::after {
   text-align: center;
 }
 
-#section-D #s-D-title h1, #section-D #s-D-title p {
+#section-D #s-D-title h1,
+#section-D #s-D-title p {
   text-align: center;
 }
 
@@ -382,7 +420,7 @@ nav #nav-pop-up #arrow-close::after {
   background-color: transparent;
 }
 
-#section-D input[type=text] {
+#section-D input[type='text'] {
   border-bottom: #111 solid 2px;
   padding: 1em 0 0.1em 0.5em;
   margin-bottom: 2em;
@@ -425,9 +463,9 @@ nav #nav-pop-up #arrow-close::after {
 }
 
 footer {
-  background-color: #999;
+  background-color: #111;
   color: white;
-  padding: 30vh 1em;
+  padding: 25vh 1em;
   text-align: center;
 }
 

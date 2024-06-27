@@ -7,28 +7,31 @@
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>Portfolio Page</title>
+    <title>Adam Chhor Portfolio</title>
 
     <script
       defer
-      src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"
-    ></script>
+      src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 
     <script
       defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"
-    ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
     <script
       defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"
-    ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
 
     <script defer src="./javascript/script.js"></script>
+
+    <!-- favicons  -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <nav>
@@ -49,39 +52,49 @@
     </nav>
     <span id="anchor-A"></span>
     <div id="section-A">
-      <h1>Front-end developer</h1>
-      <p>Quick learner, leader, and friendly</p>
+      <h1>Software Engineer</h1>
+      <p>Adam Chhor</p>
+
+      <a href="#anchor-C">
+        <span>See Latest Work</span>
+        <!-- <img src="./photos/arrow-down.svg" alt="arrow down" /> -->
+      </a>
     </div>
 
     <span id="anchor-B"></span>
     <div id="section-B">
-      <h1>Hi my name is Adam</h1>
+      <h1>About Me</h1>
       <img
         src="./photos/man-standing-next-to-code.svg"
-        alt="Man next to words"
-      />
+        alt="Man next to words" />
       <div class="container-A">
+        <p>I am a senior Computer Science student at UW Bothell.</p>
+        <p>Currently working as full-stack engineer.</p>
         <p>
-          I am a front-end developer in the Seattle area who is always looking
-          for new opportunities to learn and expand my knowledge.
+          I have 4+ years of experience using popular frameworks such as React,
+          Vue, and Django.
         </p>
       </div>
       <div class="container-B">
         <p>
-          I have tons of experience working with clients and in group
-          environments as I was responsible for coordinating my high school's
-          yearbook staff.
+          I have tons of experience working <b> directly with clients </b> and
+          in team environments. I've also taken <b> leadership positions</b> in
+          my Robotics Teams and research group.
         </p>
         <img src="./photos/guy-in-suit.svg" alt="guy in suit" />
       </div>
       <div class="container-C">
         <h2>Skills</h2>
         <ul>
-          <li>Javascript ES6</li>
-          <li>React.JS</li>
-          <li>HTML, Sass and CSS</li>
-          <li>Java</li>
-          <li>4 years of experience with Adobe Photoshop and Illustrator</li>
+          <li>React</li>
+          <li>Vue</li>
+          <li>Django</li>
+          <li>Node.js</li>
+          <li>Linux/Unix</li>
+          <li>SQL</li>
+          <li>AWS</li>
+          <li>Google Cloud Platform</li>
+          <li>Figma</li>
         </ul>
       </div>
     </div>
@@ -90,82 +103,83 @@
       <h1>Projects</h1>
       <div class="grid">
         <div class="card">
-          <img
-            src="./photos/le-dessin-react-project-screenshot-1.PNG"
-            alt="le Dessin react project"
-          />
+          <a href="https://adam-chhor.com/beach-party/">
+            <img src="./photos/beach-cleanup.png" alt="dentistry launch page" />
+          </a>
           <div class="card-caption">
-            <h2>Art Vendor</h2>
+            <h2>Volunteer Event Registration Platform</h2>
             <p>
-              Utilizes React for responsive design in combination of allowing
-              users to upload images to Firebase cloud service for other users
-              to see.
+              ­ Authorized non-profit organizations to create events for
+              signed-up users to search and register for.
             </p>
+            <span>
+              <b> Technology: </b> React Typescript, NodeJs, Google Map
+              Platform, EC2 AWS, MySQL, Material UI
+            </span>
+            <div class="card-grid">
+              <a
+                href="https://adam-chhor.com/beach-party/"
+                class="view-project">
+                <i class="fas fa-desktop fa-2x icon-desktop"></i>View Project</a
+              >
+              <a
+                href="https://github.com/adamseth2/beach-party"
+                class="view-code">
+                <i class="fab fa-github fa-2x icon-github"></i>View Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://adamseth2.github.io/le-dessin-react-project/">
+            <img
+              src="./photos/le-dessin-react-project-screenshot-1.PNG"
+              alt="le Dessin react project" />
+          </a>
+          <div class="card-caption">
+            <h2>Art Ecommerce</h2>
+            <p>
+              Vendors can auction their artwork and users can browse through the
+              market
+            </p>
+            <span> <b> Technology: </b> React, Firebase, SCSS</span>
             <div class="card-grid">
               <a
                 href="https://adamseth2.github.io/le-dessin-react-project/"
-                target="blank"
-                class="view-project"
-              >
+                class="view-project">
                 <i class="fas fa-desktop fa-2x icon-desktop"></i>View Project</a
               >
               <a
                 href="https://github.com/adamseth2/le-dessin-react-project"
-                target="_blank"
-                class="view-code"
-              >
+                class="view-code">
                 <i class="fab fa-github fa-2x icon-github"></i>View Code</a
               >
             </div>
           </div>
         </div>
         <div class="card">
-          <img
-            src="./photos/denistry-launch-page-screenshot-1.PNG"
-            alt="denistry launch page"
-          />
+          <a href="https://devpost.com/software/gro-9csojb">
+            <img src="./photos/gro-screenshot.png" alt="Gro Screenshot" />
+          </a>
           <div class="card-caption">
-            <h2>Dentistry Launch Page</h2>
-            <p>Responsive launch page template</p>
+            <h2>Gro | Tinder-like Investment App</h2>
+            <p>
+              ­ Authorized investors can “swipe left or right” on series of
+              businesses to find the right match
+              <br />
+              Won 1st place at Bellevue College Hackathon on Businesses and
+              Innovation and won Fan Favorite
+            </p>
+            <span> <b> Technology: </b> Android Studio, Java</span>
             <div class="card-grid">
               <a
-                href="https://adamseth2.github.io/Dentistry-Launch-Page/"
-                class="view-project"
-                target="_blank"
-              >
+                href="https://devpost.com/software/gro-9csojb"
+                class="view-project">
                 <i class="fas fa-desktop fa-2x icon-desktop"></i>View Project</a
               >
               <a
-                href="https://github.com/adamseth2/Dentistry-Launch-Page"
-                class="view-code"
-                target="_blank"
-              >
-                <i class="fab fa-github fa-2x icon-github"></i>View Code</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./photos/Sleeping-Panda-4x3.png"
-            alt="Sleeping-Panda-Gaming"
-          />
-          <div class="card-caption">
-            <h2>Mutiplayer Retro Game</h2>
-            <p>Play retro games like Tetris with anyone on the internet</p>
-            <div class="card-grid">
-              <a
-                href="https://adamseth2.github.io/Tic-tac-toe/"
-                class="view-project"
-                target="_blank"
-              >
-                <i class="fas fa-desktop fa-2x icon-desktop"></i>View Project</a
-              >
-              <a
-                href="https://justindood.github.io/SleepingPandas.github.io/"
-                class="view-code"
-                target="_blank"
-              >
+                href="https://github.com/Rishali123/BCHacks1"
+                class="view-code">
                 <i class="fab fa-github fa-2x icon-github"></i>View Code</a
               >
             </div>
@@ -200,48 +214,67 @@
       <img src="./photos/contact-drawing.svg" alt="Contact me image" />
       <div class="wrapper">
         <div></div>
-
         <div class="input-container">
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/adam-chhor/">
+            <p>linkedin.com/in/adam-chhor</p>
+          </a>
+          <h3>Github</h3>
+          <a href="https://github.com/adamseth2">
+            <p>github.com/adamseth2</p>
+          </a>
+          <i class="fa-solid fa-phone"></i>
+          <h3>Email</h3>
+          <p>chhoradam@gmail.com</p>
+        </div>
+        <div class="input-container">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone</h3>
+          <p>(435) 277-0115</p>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <!-- <div class="input-container">
           <input
             id="full-name"
             name="full-name"
             type="text"
             required
-            autocomplete="off"
-          />
+            autocomplete="off" />
           <label for="full-name">Full name</label>
-        </div>
-        <div class="input-container">
+        </div> -->
+        <!-- <div class="input-container">
           <input
             id="email-address"
             name="email-address"
             type="text"
             required
-            autocomplete="off"
-          />
+            autocomplete="off" />
           <label for="email-address">Email address</label>
-        </div>
+        </div> -->
       </div>
-      <textarea
+      <!-- <textarea
         name=""
         id=""
         cols="20000%"
         rows="10"
-        placeholder="Enter message"
-      ></textarea>
+        placeholder="Enter message"></textarea> -->
     </div>
 
     <footer>
       <div class="footer-grid">
-        <p>Copyright ©2020 All rights reserved</p>
+        <p>
+          Copyright ©
+          <span id="year"> 2021 </span>
+          All rights reserved
+        </p>
         <div id="social-media-container">
-          <a
-            href="https://linkedin.com/in/adam-chhor-02ab4b1b2"
-            target="_blank"
-          >
+          <a href="https://linkedin.com/in/adam-chhor-02ab4b1b2">
             <i class="fab fa-linkedin fa-2x icon-cust"></i>
           </a>
-          <a href="https://github.com/adamseth2" target="_blank">
+          <a href="https://github.com/adamseth2">
             <i class="fab fa-github fa-2x icon-cust"></i>
           </a>
         </div>
