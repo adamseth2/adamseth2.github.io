@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b6089db.css",
+    "main.js": "/static/js/main.886def0f.js",
+    "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
+    "static/js/487.9779af71.chunk.js": "/static/js/487.9779af71.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.3ff8cbd3.chunk.js": "/static/js/990.3ff8cbd3.chunk.js",
+    "static/media/mission-control-project.png": "/static/media/mission-control-project.e4e5c4a0ee16fdb55740.png",
+    "static/media/adam-chhor_resume.jpeg": "/static/media/adam-chhor_resume.d4bb7eeac09386e135b0.jpeg",
+    "static/media/comptia-a+.png": "/static/media/comptia-a+.bf0bcf852b8911770c54.png",
+    "static/media/beach-cleanup.png": "/static/media/beach-cleanup.eefa48550a643ce8a62d.png",
+    "static/media/comptia-security+.png": "/static/media/comptia-security+.3be5922ef4e9b39ddf7d.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/per-scholas-logo-30-white.png": "/static/media/per-scholas-logo-30-white.3780af405254bea08c30.png",
+    "static/media/Adam_Chhor_Resume.pdf": "/static/media/Adam_Chhor_Resume.4a6f5fed8b0a8fad293e.pdf",
+    "static/media/uw-logo-white.png": "/static/media/uw-logo-white.943dcf26584cb66f7756.png",
+    "static/media/department-of-state-logo.webp": "/static/media/department-of-state-logo.e36d10b1192132939360.webp",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/AWS Cloud Practitioner Certificate.png": "/static/media/AWS Cloud Practitioner Certificate.833898a873f1b6367c80.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/man-standing-next-to-code.svg": "/static/media/man-standing-next-to-code.ee98cb56bffa13f104de76c6166af7ee.svg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.7b6089db.css.map": "/static/css/main.7b6089db.css.map",
+    "main.886def0f.js.map": "/static/js/main.886def0f.js.map",
+    "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
+    "487.9779af71.chunk.js.map": "/static/js/487.9779af71.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.3ff8cbd3.chunk.js.map": "/static/js/990.3ff8cbd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b6089db.css",
+    "static/js/main.886def0f.js"
+  ]
+}
